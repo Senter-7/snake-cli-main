@@ -4,7 +4,7 @@
 #include <thread>
 #include <stdlib.h>
 #include <termios.h>
-#include <unistd.h> // for system clear
+#include <unistd.h>
 #include <map>
 #include <deque>
 #include <algorithm>
@@ -18,7 +18,7 @@ char direction = 'r';
 bool paused = false;
 multiset<int, greater<int>> topscores;
 
-// ---------------- Score Handling ----------------
+
 void loadScores() {
     ifstream infile("scores.txt");
     int score;
@@ -32,7 +32,7 @@ void saveScores() {
     ofstream outfile("scores.txt");
     int count = 0;
     for (int score : topscores) {
-        if (count++ == 10) break; // keep top 10
+        if (count++ == 10) break; 
         outfile << score << "\n";
     }
     outfile.close();
@@ -47,7 +47,6 @@ void showTopScores() {
     }
     cout << "==================\n";
 }
-// ------------------------------------------------
 
 void input_handler() {
     struct termios oldt, newt;
@@ -118,12 +117,11 @@ void game_play() {
     system("clear");
 
     loadScores();
-    showTopScores(); // show at start
+    showTopScores(); 
 
     deque<pair<int, int>> snake;
     snake.push_back(make_pair(0, 0));
 
-    // place first food
     pair<int, int> food;
     do {
         food = make_pair(rand() % 10, rand() % 10);
@@ -136,16 +134,14 @@ void game_play() {
         cout << "\033[H";
         int score = snake.size() * 10;
 
-        // ---------- FIX: Pausing should not move the snake ----------
         if (paused) {
             render_game(10, snake, food, poisonfood);
             cout << "Game paused. Press x to continue" << endl;
             cout << "Score: " << score << " points" << endl;
             sleep_for(std::chrono::milliseconds(200));
-            continue; // skip updating head and snake
+            continue;
         }
-        // -----------------------------------------------------------
-
+         
         head = get_next_head(head, direction);
 
         if (find(snake.begin(), snake.end(), head) != snake.end()) {
@@ -153,7 +149,6 @@ void game_play() {
         }
 
         else if (head.first == food.first && head.second == food.second) {
-            // grow snake
             do {
                 food = make_pair(rand() % 10, rand() % 10);
             } while (find(snake.begin(), snake.end(), food) != snake.end());
