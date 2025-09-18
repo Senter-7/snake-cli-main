@@ -1,0 +1,5 @@
+SnakeBehaviour.NextHeadRight 1 0.0342263
+SnakeBehaviour.NextHeadLeft 1 0.0295804
+SnakeBehaviour.NextHeadUp 1 0.0292562
+SnakeBehaviour.NextHeadDown 1 0.0324245
+---

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/snake_game.dir/main.cpp.o -o snake_game 

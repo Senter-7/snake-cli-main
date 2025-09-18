@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsnake.a CMakeFiles/snake.dir/main.cpp.o
+/usr/bin/ranlib libsnake.a

@@ -1,0 +1,111 @@
+Start testing: Sep 15 06:32 UTC
+----------------------------------------------------------
+1/4 Testing: SnakeBehaviour.NextHeadRight
+1/4 Test: SnakeBehaviour.NextHeadRight
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadRight" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadRight" start time: Sep 15 06:32 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadRight
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadRight
+[       OK ] SnakeBehaviour.NextHeadRight (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadRight" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadRight" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: SnakeBehaviour.NextHeadLeft
+2/4 Test: SnakeBehaviour.NextHeadLeft
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadLeft" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadLeft" start time: Sep 15 06:32 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadLeft
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadLeft
+[       OK ] SnakeBehaviour.NextHeadLeft (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadLeft" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadLeft" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: SnakeBehaviour.NextHeadUp
+3/4 Test: SnakeBehaviour.NextHeadUp
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadUp" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadUp" start time: Sep 15 06:32 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadUp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadUp
+[       OK ] SnakeBehaviour.NextHeadUp (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadUp" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadUp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: SnakeBehaviour.NextHeadDown
+4/4 Test: SnakeBehaviour.NextHeadDown
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadDown" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadDown" start time: Sep 15 06:32 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadDown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadDown
+[       OK ] SnakeBehaviour.NextHeadDown (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadDown" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadDown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 15 06:32 UTC
