@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/snake_game.dir/main.cpp.o -o snake_game 

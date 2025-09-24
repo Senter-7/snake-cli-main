@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/tests.dir/snake_test.cpp.o -o tests  lib/libgtest_main.a lib/libgtest.a 
