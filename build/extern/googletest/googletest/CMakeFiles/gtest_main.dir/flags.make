@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/include -isystem /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest
 
-CXX_FLAGS = -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+CXX_FLAGS = -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
 

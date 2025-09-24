@@ -1,5 +1,0 @@
-if(EXISTS "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/snake_tests[1]_tests.cmake")
-  include("/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/snake_tests[1]_tests.cmake")
-else()
-  add_test(snake_tests_NOT_BUILT snake_tests_NOT_BUILT)
-endif()

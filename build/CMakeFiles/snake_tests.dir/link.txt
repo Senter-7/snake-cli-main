@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/snake_tests.dir/snake_test.cpp.o -o snake_tests  libsnake.a lib/libgtest_main.a lib/libgtest.a 

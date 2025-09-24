@@ -1,10 +1,10 @@
-Start testing: Sep 15 06:32 UTC
+Start testing: Sep 24 06:12 UTC
 ----------------------------------------------------------
-1/4 Testing: SnakeBehaviour.NextHeadRight
-1/4 Test: SnakeBehaviour.NextHeadRight
+1/27 Testing: SnakeBehaviour.NextHeadRight
+1/27 Test: SnakeBehaviour.NextHeadRight
 Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadRight" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
-"SnakeBehaviour.NextHeadRight" start time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadRight" start time: Sep 24 06:12 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
@@ -23,15 +23,42 @@ Note: Google Test filter = SnakeBehaviour.NextHeadRight
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"SnakeBehaviour.NextHeadRight" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadRight" end time: Sep 24 06:12 UTC
 "SnakeBehaviour.NextHeadRight" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: SnakeBehaviour.NextHeadLeft
-2/4 Test: SnakeBehaviour.NextHeadLeft
+2/27 Testing: SnakeBehaviour.NextHeadRightWrapAround
+2/27 Test: SnakeBehaviour.NextHeadRightWrapAround
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadRightWrapAround" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadRightWrapAround" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadRightWrapAround
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadRightWrapAround
+[       OK ] SnakeBehaviour.NextHeadRightWrapAround (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadRightWrapAround" end time: Sep 24 06:12 UTC
+"SnakeBehaviour.NextHeadRightWrapAround" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/27 Testing: SnakeBehaviour.NextHeadLeft
+3/27 Test: SnakeBehaviour.NextHeadLeft
 Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadLeft" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
-"SnakeBehaviour.NextHeadLeft" start time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadLeft" start time: Sep 24 06:12 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
@@ -47,18 +74,45 @@ Note: Google Test filter = SnakeBehaviour.NextHeadLeft
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Passed.
-"SnakeBehaviour.NextHeadLeft" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadLeft" end time: Sep 24 06:12 UTC
 "SnakeBehaviour.NextHeadLeft" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: SnakeBehaviour.NextHeadUp
-3/4 Test: SnakeBehaviour.NextHeadUp
+4/27 Testing: SnakeBehaviour.NextHeadLeftWrapAround
+4/27 Test: SnakeBehaviour.NextHeadLeftWrapAround
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadLeftWrapAround" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadLeftWrapAround" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadLeftWrapAround
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadLeftWrapAround
+[       OK ] SnakeBehaviour.NextHeadLeftWrapAround (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadLeftWrapAround" end time: Sep 24 06:12 UTC
+"SnakeBehaviour.NextHeadLeftWrapAround" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/27 Testing: SnakeBehaviour.NextHeadUp
+5/27 Test: SnakeBehaviour.NextHeadUp
 Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadUp" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
-"SnakeBehaviour.NextHeadUp" start time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadUp" start time: Sep 24 06:12 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
@@ -77,15 +131,42 @@ Note: Google Test filter = SnakeBehaviour.NextHeadUp
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"SnakeBehaviour.NextHeadUp" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadUp" end time: Sep 24 06:12 UTC
 "SnakeBehaviour.NextHeadUp" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: SnakeBehaviour.NextHeadDown
-4/4 Test: SnakeBehaviour.NextHeadDown
+6/27 Testing: SnakeBehaviour.NextHeadUpWrapAround
+6/27 Test: SnakeBehaviour.NextHeadUpWrapAround
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadUpWrapAround" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadUpWrapAround" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadUpWrapAround
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadUpWrapAround
+[       OK ] SnakeBehaviour.NextHeadUpWrapAround (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadUpWrapAround" end time: Sep 24 06:12 UTC
+"SnakeBehaviour.NextHeadUpWrapAround" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/27 Testing: SnakeBehaviour.NextHeadDown
+7/27 Test: SnakeBehaviour.NextHeadDown
 Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadDown" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
-"SnakeBehaviour.NextHeadDown" start time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadDown" start time: Sep 24 06:12 UTC
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
@@ -104,8 +185,548 @@ Note: Google Test filter = SnakeBehaviour.NextHeadDown
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"SnakeBehaviour.NextHeadDown" end time: Sep 15 06:32 UTC
+"SnakeBehaviour.NextHeadDown" end time: Sep 24 06:12 UTC
 "SnakeBehaviour.NextHeadDown" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 15 06:32 UTC
+8/27 Testing: SnakeBehaviour.NextHeadDownWrapAround
+8/27 Test: SnakeBehaviour.NextHeadDownWrapAround
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.NextHeadDownWrapAround" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.NextHeadDownWrapAround" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.NextHeadDownWrapAround
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.NextHeadDownWrapAround
+[       OK ] SnakeBehaviour.NextHeadDownWrapAround (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.NextHeadDownWrapAround" end time: Sep 24 06:12 UTC
+"SnakeBehaviour.NextHeadDownWrapAround" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/27 Testing: SnakeBehaviour.EdgeCaseMovement
+9/27 Test: SnakeBehaviour.EdgeCaseMovement
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.EdgeCaseMovement" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.EdgeCaseMovement" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.EdgeCaseMovement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.EdgeCaseMovement
+[       OK ] SnakeBehaviour.EdgeCaseMovement (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.EdgeCaseMovement" end time: Sep 24 06:12 UTC
+"SnakeBehaviour.EdgeCaseMovement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/27 Testing: SnakeBehaviour.BoundaryConditions
+10/27 Test: SnakeBehaviour.BoundaryConditions
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeBehaviour.BoundaryConditions" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeBehaviour.BoundaryConditions" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeBehaviour.BoundaryConditions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeBehaviour
+[ RUN      ] SnakeBehaviour.BoundaryConditions
+[       OK ] SnakeBehaviour.BoundaryConditions (0 ms)
+[----------] 1 test from SnakeBehaviour (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeBehaviour.BoundaryConditions" end time: Sep 24 06:12 UTC
+"SnakeBehaviour.BoundaryConditions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/27 Testing: SnakeGameTest.InitialState
+11/27 Test: SnakeGameTest.InitialState
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.InitialState" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.InitialState" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.InitialState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.InitialState
+[       OK ] SnakeGameTest.InitialState (12 ms)
+[----------] 1 test from SnakeGameTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.InitialState" end time: Sep 24 06:12 UTC
+"SnakeGameTest.InitialState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/27 Testing: SnakeGameTest.DirectionChange
+12/27 Test: SnakeGameTest.DirectionChange
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.DirectionChange" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.DirectionChange" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.DirectionChange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.DirectionChange
+[       OK ] SnakeGameTest.DirectionChange (14 ms)
+[----------] 1 test from SnakeGameTest (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (14 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.DirectionChange" end time: Sep 24 06:12 UTC
+"SnakeGameTest.DirectionChange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/27 Testing: SnakeGameTest.PauseResume
+13/27 Test: SnakeGameTest.PauseResume
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.PauseResume" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.PauseResume" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.PauseResume
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.PauseResume
+[       OK ] SnakeGameTest.PauseResume (12 ms)
+[----------] 1 test from SnakeGameTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (13 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.PauseResume" end time: Sep 24 06:12 UTC
+"SnakeGameTest.PauseResume" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/27 Testing: SnakeGameTest.InputHandling
+14/27 Test: SnakeGameTest.InputHandling
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.InputHandling" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.InputHandling" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.InputHandling
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.InputHandling
+[       OK ] SnakeGameTest.InputHandling (13 ms)
+[----------] 1 test from SnakeGameTest (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (14 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.InputHandling" end time: Sep 24 06:12 UTC
+"SnakeGameTest.InputHandling" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/27 Testing: SnakeGameTest.SnakeMovement
+15/27 Test: SnakeGameTest.SnakeMovement
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.SnakeMovement" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.SnakeMovement" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.SnakeMovement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.SnakeMovement
+[       OK ] SnakeGameTest.SnakeMovement (12 ms)
+[----------] 1 test from SnakeGameTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.SnakeMovement" end time: Sep 24 06:12 UTC
+"SnakeGameTest.SnakeMovement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/27 Testing: SnakeGameTest.ScoreCalculation
+16/27 Test: SnakeGameTest.ScoreCalculation
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.ScoreCalculation" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.ScoreCalculation" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.ScoreCalculation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.ScoreCalculation
+[       OK ] SnakeGameTest.ScoreCalculation (10 ms)
+[----------] 1 test from SnakeGameTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.ScoreCalculation" end time: Sep 24 06:12 UTC
+"SnakeGameTest.ScoreCalculation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/27 Testing: SnakeGameTest.FoodGeneration
+17/27 Test: SnakeGameTest.FoodGeneration
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.FoodGeneration" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.FoodGeneration" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.FoodGeneration
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.FoodGeneration
+[       OK ] SnakeGameTest.FoodGeneration (11 ms)
+[----------] 1 test from SnakeGameTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.FoodGeneration" end time: Sep 24 06:12 UTC
+"SnakeGameTest.FoodGeneration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/27 Testing: SnakeGameTest.PoisonFoodGeneration
+18/27 Test: SnakeGameTest.PoisonFoodGeneration
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.PoisonFoodGeneration" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.PoisonFoodGeneration" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.PoisonFoodGeneration
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.PoisonFoodGeneration
+[       OK ] SnakeGameTest.PoisonFoodGeneration (11 ms)
+[----------] 1 test from SnakeGameTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.PoisonFoodGeneration" end time: Sep 24 06:12 UTC
+"SnakeGameTest.PoisonFoodGeneration" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/27 Testing: SnakeGameTest.SelfCollisionDetection
+19/27 Test: SnakeGameTest.SelfCollisionDetection
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.SelfCollisionDetection" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.SelfCollisionDetection" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.SelfCollisionDetection
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.SelfCollisionDetection
+[       OK ] SnakeGameTest.SelfCollisionDetection (8 ms)
+[----------] 1 test from SnakeGameTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.SelfCollisionDetection" end time: Sep 24 06:12 UTC
+"SnakeGameTest.SelfCollisionDetection" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/27 Testing: SnakeGameTest.GameStateConsistency
+20/27 Test: SnakeGameTest.GameStateConsistency
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.GameStateConsistency" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.GameStateConsistency" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.GameStateConsistency
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.GameStateConsistency
+[       OK ] SnakeGameTest.GameStateConsistency (9 ms)
+[----------] 1 test from SnakeGameTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.GameStateConsistency" end time: Sep 24 06:12 UTC
+"SnakeGameTest.GameStateConsistency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/27 Testing: SnakeGameTest.PerformanceTest
+21/27 Test: SnakeGameTest.PerformanceTest
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.PerformanceTest" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.PerformanceTest" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.PerformanceTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.PerformanceTest
+[       OK ] SnakeGameTest.PerformanceTest (10 ms)
+[----------] 1 test from SnakeGameTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.PerformanceTest" end time: Sep 24 06:12 UTC
+"SnakeGameTest.PerformanceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/27 Testing: SnakeGameTest.InputValidation
+22/27 Test: SnakeGameTest.InputValidation
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.InputValidation" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.InputValidation" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.InputValidation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.InputValidation
+[       OK ] SnakeGameTest.InputValidation (9 ms)
+[----------] 1 test from SnakeGameTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.InputValidation" end time: Sep 24 06:12 UTC
+"SnakeGameTest.InputValidation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/27 Testing: SnakeGameTest.DirectionChangeValidation
+23/27 Test: SnakeGameTest.DirectionChangeValidation
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.DirectionChangeValidation" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.DirectionChangeValidation" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.DirectionChangeValidation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.DirectionChangeValidation
+[       OK ] SnakeGameTest.DirectionChangeValidation (8 ms)
+[----------] 1 test from SnakeGameTest (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.DirectionChangeValidation" end time: Sep 24 06:12 UTC
+"SnakeGameTest.DirectionChangeValidation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/27 Testing: SnakeGameTest.FileHandling
+24/27 Test: SnakeGameTest.FileHandling
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.FileHandling" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.FileHandling" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.FileHandling
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.FileHandling
+[       OK ] SnakeGameTest.FileHandling (19 ms)
+[----------] 1 test from SnakeGameTest (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (19 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.FileHandling" end time: Sep 24 06:12 UTC
+"SnakeGameTest.FileHandling" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/27 Testing: SnakeGameTest.GameLogicConsistency
+25/27 Test: SnakeGameTest.GameLogicConsistency
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.GameLogicConsistency" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.GameLogicConsistency" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.GameLogicConsistency
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.GameLogicConsistency
+[       OK ] SnakeGameTest.GameLogicConsistency (9 ms)
+[----------] 1 test from SnakeGameTest (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (9 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.GameLogicConsistency" end time: Sep 24 06:12 UTC
+"SnakeGameTest.GameLogicConsistency" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/27 Testing: SnakeGameTest.StressTest
+26/27 Test: SnakeGameTest.StressTest
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.StressTest" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.StressTest" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.StressTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.StressTest
+[       OK ] SnakeGameTest.StressTest (11 ms)
+[----------] 1 test from SnakeGameTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.StressTest" end time: Sep 24 06:12 UTC
+"SnakeGameTest.StressTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/27 Testing: SnakeGameTest.MemoryManagement
+27/27 Test: SnakeGameTest.MemoryManagement
+Command: "/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build/tests" "--gtest_filter=SnakeGameTest.MemoryManagement" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
+"SnakeGameTest.MemoryManagement" start time: Sep 24 06:12 UTC
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = SnakeGameTest.MemoryManagement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SnakeGameTest
+[ RUN      ] SnakeGameTest.MemoryManagement
+[       OK ] SnakeGameTest.MemoryManagement (97 ms)
+[----------] 1 test from SnakeGameTest (97 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (97 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"SnakeGameTest.MemoryManagement" end time: Sep 24 06:12 UTC
+"SnakeGameTest.MemoryManagement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 24 06:12 UTC

@@ -25,7 +25,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -288,24 +288,6 @@ GTEST_HAS_ABSL:BOOL=OFF
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
-
-//Value Computed by CMake
-MyProject_BINARY_DIR:STATIC=/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
-
-//Value Computed by CMake
-MyProject_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-MyProject_SOURCE_DIR:STATIC=/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main
-
-//Value Computed by CMake
-SnakeGameTests_BINARY_DIR:STATIC=/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build
-
-//Value Computed by CMake
-SnakeGameTests_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SnakeGameTests_SOURCE_DIR:STATIC=/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main
 
 //Value Computed by CMake
 SnakeGame_BINARY_DIR:STATIC=/mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/build

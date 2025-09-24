@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest/include -isystem /mnt/c/Users/ankus/Downloads/snake-cli-main/snake-cli-main/extern/googletest/googletest
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
 
